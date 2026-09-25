@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2026 FoBE Studio
+# SPDX-License-Identifier: Apache-2.0
+
+version = 1
+
+[[annotations]]
+path = ["README.md", "LICENSING.md", "samples/**", "tests/**", "src/zui_common_icons.*", "src/zui_compress.*", "src/dicts/README.md", "scripts/**", "modules/**"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 FoBE Studio"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["src/dicts/LICENSE", "src/dicts/en_subtlex_words.txt"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2015 Zeke Sikelianos <zeke@sikelianos.com>"
+SPDX-License-Identifier = "ISC"
